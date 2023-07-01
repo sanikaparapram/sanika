@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: orange;
+}
+.nav
+{
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+
+}
+.nav img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+.text
+{
+    color: black;
+    margin-right: auto;
+    margin-left: 10px;
+}
+.text1,.text2,.text3,.text4,.text5
+{
+    color: black;
+    margin-right: 20px;
+}
+.container
+{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+    color: aliceblue;
+}
+.t
+{
+    font-size: 60px;
+    font: bolder;
+}
+.t1
+{
+    font-size: 20px;
+}
+.button button
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 40%;
+    color: aliceblue;
+    background-color: green;
+    align-items: center;
+}
