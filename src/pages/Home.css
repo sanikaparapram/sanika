@@ -3,7 +3,7 @@ body
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: orange;
+    background-color: orange
 }
 .nav
 {
@@ -30,6 +30,7 @@ body
 {
     color: black;
     margin-right: 20px;
+    text-decoration: none;
 }
 .container
 {
@@ -49,12 +50,12 @@ body
 {
     font-size: 20px;
 }
-.button button
+.button center
 {
     height: 50px;
     width: 150px;
     border-radius: 40%;
     color: aliceblue;
     background-color: green;
-    align-items: center;
+    /* align-items: center; */
 }
