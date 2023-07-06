@@ -3,8 +3,7 @@ body
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: orange;
-    background-color: no-repeat;
+    background-color: orange; 
 }
 .nav
 {
@@ -12,9 +11,9 @@ body
     width: auto;
     display: flex;
     align-items: center;
-    background-color: black;
-    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
+    cursor: pointer;
 }
 .nav img
 {
@@ -33,24 +32,21 @@ body
 .text1,.text2,.text3,.text4,.text5
 {
     color: aliceblue;
-    margin-right: 20px;
-    
-    
+    margin-right: 20px;    
 }
 .container
 {
     color: aliceblue;
     margin-top: 200px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    line-height: 60px;
-    
+    line-height: 60px; 
 }
 .t
 {
     font-size: 60px;
-    /* font: bolder; */
     font-weight: 900;
 }
 .t1

@@ -12,11 +12,11 @@ export const Login = () => {
          <h1>Login</h1>
          <div className="tt">
            <label htmlFor="email">Email:</label>
-           <input type="text" name="email" id="email"/> 
+           <input type="text" name="email" id="email" placeholder="Enter your email"/> 
          </div>
          <div className="t2">
          <label htmlFor="password">Password:</label>
-         <input type="password" name="password" id="password" />
+         <input type="password" name="password" id="password" placeholder="Enter your password"/>
          </div>
          <div className="t3">
          <input type="checkbox" id="check" />
@@ -26,8 +26,8 @@ export const Login = () => {
             <button>SIGN IN</button>
          </div>
          <div className="t8">
-            <div className="a">Forgot <span>Username / Password?</span></div>
-            <div className="b">Don't have an account? <span>Sign up</span></div>
+            <div className="a">Forgot <span><a href='#'>Username / Password?</a></span></div>
+            <div className="b">Don't have an account? <span><a href='#'>Sign up</a></span></div>
          </div>
         </div>
       </div>

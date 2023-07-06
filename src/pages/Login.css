@@ -31,6 +31,7 @@ body
 }
 .tt
 {
+    height: 50px;
     width: 80%; 
     display: flex;
     flex-direction: column;
@@ -43,6 +44,7 @@ body
 }
 .t2
 {
+    height: 50px;
     width: 80%;
     display: flex;
     flex-direction: column; 
@@ -56,10 +58,10 @@ body
 }
 .t3 
 {
+    width: 80%;
     display: flex;
-    margin-right: 280px;
     line-height: 20px;
-    padding: 16px;
+    padding: 20px;
 } 
 .t4 
 {
@@ -73,7 +75,7 @@ body
 }
 .t4 button
 {
-    
+    cursor: pointer;
     border: none;
     outline: none;
     height: 40px;
@@ -87,6 +89,7 @@ body
     flex-direction: column;
     align-items: center;
     padding-top: 30px; 
+    
 } 
 .t8 span
 {
